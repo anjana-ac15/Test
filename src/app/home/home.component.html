@@ -1,0 +1,19 @@
+<h1 class="danger">{{name}}</h1>
+<h1 [class] = "dangerClass">hello</h1>
+<h2 [class]="successClass">hellllooooo</h2>
+<h3 [class]="successClass">good evening</h3>
+<h2 class="success">anjana</h2>
+<h1 class="yelove">good luck</h1>
+<h2 [class] = "yeloveClass">all the best</h2>
+<h2 [class.danger] = "isUndanger">hello</h2>
+<h1 [class] = "dangerClass">123</h1>
+
+<h1 [ngClass]="classesList">testing</h1>
+
+<p>{{serverCreationStatus}}</p>
+<button (click)="onServer()">Create Server</button>
+<p>{{serverCreationStatus}}</p>
+<input type="text" [(ngModel)] = "serverName">
+{{serverName}}
+<input type="text" [(ngModel)] = "serverName">
+
