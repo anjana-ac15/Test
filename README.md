@@ -1,6 +1,6 @@
 # Myapp
 
-This project is created by for testing purpose.
+This project is created by for testing.
 
 ## Development server
 
