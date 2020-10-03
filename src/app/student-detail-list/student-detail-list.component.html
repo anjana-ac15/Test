@@ -1,0 +1,21 @@
+<p>student-detail-list works!</p>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Mark1</th>
+            <th>Mark2</th>
+            <th>total</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let stud of studList">
+            <td>{{stud.id}}</td>
+            <td>{{stud.name}}</td>
+            <td>{{stud.mark1}}</td>
+            <td>{{stud.mark2}}</td>        
+            <td><button (click)="showTotal(stud)">Total</button></td>        
+        </tr>
+    </tbody>
+</table>
